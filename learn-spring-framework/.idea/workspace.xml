@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="693da600-e82f-4831-9837-706836b1bfb6" name="Changes" comment="My project" />
+    <list default="true" id="693da600-e82f-4831-9837-706836b1bfb6" name="Changes" comment="My project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/enterprise/example/web/MyWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/enterprise/example/web/MyWebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/game/MarioGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/game/MarioGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/game/PacmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/game/PacmanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/game/SuperContraGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/in28min/spring/learnspringframework/game/SuperContraGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,18 +66,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/SPRING PROJECT/learn-spring-framework/pom.xml",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SPRING PROJECT/learn-spring-framework/pom.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.in28min.spring.learnspringframework.game" />
@@ -152,7 +159,17 @@
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="dev" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
                 </option>
               </RecentGroup>
             </list>
