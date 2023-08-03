@@ -1,6 +1,6 @@
 package com.in28min.spring.learnspringframework;
 
-import com.in28min.spring.learnspringframework.enterprise.example.MyWebController;
+import com.in28min.spring.learnspringframework.enterprise.example.web.MyWebController;
 import com.in28min.spring.learnspringframework.game.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,6 +23,9 @@ public class LearnSpringFrameworkApplication {
 
 		MyWebController controller = context.getBean(MyWebController.class);
 		System.out.println(controller.returnValueFromBusinessService());
+
+		System.out.println(controller.returnString());
+
 
 
 
