@@ -7,8 +7,9 @@ import java.time.LocalDate;
 public class User {
 
     private Integer id;
-    @JsonProperty("user_name")
+    @JsonProperty("user_name")  //static filtering
     private String name;
+    @JsonProperty("Birth_date") //Static filtering
     private LocalDate birthDate;
 
     public User(int id, String name, LocalDate birthDate) {
