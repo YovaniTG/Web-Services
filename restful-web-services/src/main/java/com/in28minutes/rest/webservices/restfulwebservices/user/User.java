@@ -1,11 +1,21 @@
 package com.in28minutes.rest.webservices.restfulwebservices.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.annotation.Generated;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 
 import java.time.LocalDate;
 
+@Entity(name = "user_details")
 public class User {
 
+    protected User(){
+
+    }
+    @Id
+    @GeneratedValue // like using AUTO_INCREMENT
     private Integer id;
     @JsonProperty("user_name")  //static filtering
     private String name;
