@@ -10,10 +10,7 @@ public class IsPrime {
 
             }
         }
-
-
-
-        return count;
+            return count;
     }
 
     public static void main(String[] args) {
