@@ -1,8 +1,6 @@
 package practice.algorithms;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class SumOfGivingNumberWithinAnArray {
 
@@ -19,25 +17,48 @@ public class SumOfGivingNumberWithinAnArray {
     Sample Output
     [-1,11]
      */
+public static  HashMap <Integer, Integer> fillHashMap (TreeSet<Integer> uniqueList, int sumInput){
+    HashMap <Integer, Integer> mappedNumbers = new HashMap<>();
+    if (sumInput != 0){
+        for (Integer element: uniqueList){
+            mappedNumbers.put(element,0);
+        }
+    }
+    return mappedNumbers;
+}
 
-    public static void arraySum(HashSet<Integer> arrayInput, int sumInput){
-        int outputArray[] = new int[2];//added an array since i know the output will always be of two numbers.
+
+    public static int [] arraySum(TreeSet<Integer> uniqueList, int sumInput){
+
+        HashMap <Integer, Integer> mappedNumbers = fillHashMap( uniqueList, sumInput);
 
         if (sumInput != 0){
-            for (Integer element: arrayInput){
+            for (Integer element: uniqueList){
+                int component = sumInput - element;
+
+                if (mappedNumbers.containsKey(component)){
+                    return new int[]  {component, element};
+                }
+
 
             }
         }
 
-
+        return new int[]{};
 
     }
 
     public static void main(String[] args) {
 
-        int sumInput = 10;
-        List<Integer> originalInput = Arrays.asList(3, 5, -4, 8, 11, 1, -1, 6);
-        HashSet<Integer> arrayInput = new HashSet<>(originalInput);
+        int sumInput = 11;
+        List<Integer> originalInput = Arrays.asList(3, 5, -4, 8, 11, 1,1, -1, 6,6);
+        TreeSet<Integer> uniqueList = new TreeSet<>(originalInput);
+
+        int [] outPutArray = arraySum(uniqueList, sumInput);
+
+        for (int i =0; i < outPutArray.length; i++){
+            System.out.println(outPutArray[i]);
+        }
 
 
 
