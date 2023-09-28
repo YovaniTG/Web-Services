@@ -39,8 +39,8 @@ class Result {
         }
 
         System.out.println(mappedValues.get("Negative"));
-        float result = Math.divideExact((int) mappedValues.get("Negative"), n);
-        System.out.println(result);
+       // float result = Math.divideExact((int) mappedValues.get("Negative"), n);
+      //  System.out.println(result);
         System.out.println(mappedValues.get("Positive")/ n);
         System.out.println(mappedValues.get("Zero")/ n);
     }
