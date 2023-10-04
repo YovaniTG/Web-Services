@@ -50,7 +50,7 @@ public static  HashMap <Integer, Integer> fillHashMap (TreeSet<Integer> uniqueLi
 
     public static void main(String[] args) {
 
-        int sumInput = 11;
+        int sumInput = 10;
         List<Integer> originalInput = Arrays.asList(3, 5, -4, 8, 11, 1,1, -1, 6,6);
         TreeSet<Integer> uniqueList = new TreeSet<>(originalInput);
 
